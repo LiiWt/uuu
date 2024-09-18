@@ -1,4 +1,25 @@
 body {
     background-color: #2a3d28;
     font-family: "Handjet", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 50px;
+}
+
+button {
+    background-color: #162018;
+    color: rgb(255, 255, 255);
+   
+ font-family: "handjet", sans-serif;
+ font-size: 30px;
+}
+
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
 }
